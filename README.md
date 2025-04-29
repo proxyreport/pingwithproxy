@@ -36,7 +36,7 @@ For best results, **Node.js 20+** is recommended.
 
 ## ⚙️ Configuration
 
-Edit the **`pingTest.js`** file to configure:
+Edit the **`ping.js`** file to configure:
 
 ```js
 const proxy = 'http://username:password@proxy.com:port';  // Proxy URL
@@ -57,7 +57,7 @@ const concurrency = 5;                                            // Parallel re
 Run the latency tester:
 
 ```bash
-node pingTest.js
+node ping.js
 ```
 
 Example output:
