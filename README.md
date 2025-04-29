@@ -1,8 +1,9 @@
-# HTTP(S) Proxy Latency Tester v0.1
-Part of Proxy Report Suite.
+[https://pingwithproxy.com/](https://pingwithproxy.com/)
 
-A high-precision **HTTP(S) proxy latency measurement tool** written in **Node.js**.  
-Inspired by **fast.com** and **httping**, it measures **time-to-first-byte (TTFB)** across multiple HTTP pings via proxies, with a focus on **low latency** and **high accuracy**.
+# HTTP(S) Proxy Latency Tester v0.1
+Part of the [Proxy Report Suite](http://proxy.report/)
+
+A high-precision **HTTP(S) proxy latency measurement tool** written in **Node.js**. Inspired by **fast.com** and **httping**, it measures **time-to-first-byte (TTFB)** across multiple HTTP pings via proxies, with a focus on **low latency** and **high accuracy**.
 
 - Uses **nanosecond timing** via `process.hrtime.bigint()`
 - Disables **Nagle's algorithm** (`TCP_NODELAY`) for minimal delay
